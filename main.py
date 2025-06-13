@@ -11,7 +11,7 @@ app = FastAPI()
 gas_webhook_url = "https://script.google.com/macros/s/AKfycbzaAdyK9hYBiV-nr_Wvubi3_CJJjOgaJP0Yfao3sd0u5A1T5idWJniQF-p3P6M7PTt4qA/exec"
 
 # Colab Whisper + GPT 的 URL（可選）
-colab_whisper_api = "https://9e93-34-106-171-217.ngrok-free.app/api/evaluate"
+colab_whisper_api = "https://a49b-34-91-10-233.ngrok-free.app/api/evaluate"
 
 @app.post("/webhook")
 async def relay_webhook(request: Request):
